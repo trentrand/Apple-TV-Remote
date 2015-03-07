@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF5EFE861A5E51E900ED4DFA /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5EFE851A5E51E900ED4DFA /* NotificationCenter.framework */; };
+		DF5EFE8D1A5E51E900ED4DFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF5EFE8B1A5E51E900ED4DFA /* InfoPlist.strings */; };
+		DF5EFE8F1A5E51E900ED4DFA /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5EFE8E1A5E51E900ED4DFA /* TodayViewController.swift */; };
+		DF5EFE911A5E51E900ED4DFA /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5EFE901A5E51E900ED4DFA /* TodayViewController.xib */; };
+		DF5EFE941A5E51E900ED4DFA /* TodayWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DF5EFE831A5E51E900ED4DFA /* TodayWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF5EFE9D1A5E522000ED4DFA /* KeyboardDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF5EFE991A5E522000ED4DFA /* KeyboardDictionary.plist */; };
+		DF5EFE9E1A5E522000ED4DFA /* KeyboardLayouts.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF5EFE9A1A5E522000ED4DFA /* KeyboardLayouts.plist */; };
+		DF5EFE9F1A5E522000ED4DFA /* SpecialMenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF5EFE9B1A5E522000ED4DFA /* SpecialMenuItems.plist */; };
+		DF5EFEA01A5E522000ED4DFA /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF5EFE9C1A5E522000ED4DFA /* UserDefaults.plist */; };
 		DF8155D11A528621003172F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8155D01A528621003172F2 /* AppDelegate.swift */; };
 		DF8155D31A528621003172F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8155D21A528621003172F2 /* ViewController.swift */; };
 		DF8155D51A528621003172F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8155D41A528621003172F2 /* Images.xcassets */; };
 		DF8155D81A528621003172F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8155D61A528621003172F2 /* Main.storyboard */; };
 		DF8155E41A528621003172F2 /* Apple_TV_RemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8155E31A528621003172F2 /* Apple_TV_RemoteTests.swift */; };
+		DFF840541A53D64000D22DE6 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF840531A53D64000D22DE6 /* IOBluetooth.framework */; };
+		DFF840561A53D64600D22DE6 /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF840551A53D64600D22DE6 /* IOBluetoothUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DF5EFE921A5E51E900ED4DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8155C31A528621003172F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5EFE821A5E51E900ED4DFA;
+			remoteInfo = TodayWidget;
+		};
 		DF8155DE1A528621003172F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DF8155C31A528621003172F2 /* Project object */;
@@ -24,7 +42,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DF5EFE981A5E51E900ED4DFA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DF5EFE941A5E51E900ED4DFA /* TodayWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DF5EFE831A5E51E900ED4DFA /* TodayWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5EFE851A5E51E900ED4DFA /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		DF5EFE891A5E51E900ED4DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5EFE8A1A5E51E900ED4DFA /* TodayWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodayWidget.entitlements; sourceTree = "<group>"; };
+		DF5EFE8C1A5E51E900ED4DFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF5EFE8E1A5E51E900ED4DFA /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		DF5EFE901A5E51E900ED4DFA /* TodayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodayViewController.xib; sourceTree = "<group>"; };
+		DF5EFE991A5E522000ED4DFA /* KeyboardDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeyboardDictionary.plist; sourceTree = "<group>"; };
+		DF5EFE9A1A5E522000ED4DFA /* KeyboardLayouts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeyboardLayouts.plist; sourceTree = "<group>"; };
+		DF5EFE9B1A5E522000ED4DFA /* SpecialMenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SpecialMenuItems.plist; sourceTree = "<group>"; };
+		DF5EFE9C1A5E522000ED4DFA /* UserDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserDefaults.plist; sourceTree = "<group>"; };
 		DF8155CB1A528621003172F2 /* Apple TV Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple TV Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8155CF1A528621003172F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF8155D01A528621003172F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,13 +77,25 @@
 		DF8155DD1A528621003172F2 /* Apple TV RemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple TV RemoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8155E21A528621003172F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF8155E31A528621003172F2 /* Apple_TV_RemoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_RemoteTests.swift; sourceTree = "<group>"; };
+		DFF840531A53D64000D22DE6 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		DFF840551A53D64600D22DE6 /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DF5EFE801A5E51E900ED4DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5EFE861A5E51E900ED4DFA /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF8155C81A528621003172F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF840561A53D64600D22DE6 /* IOBluetoothUI.framework in Frameworks */,
+				DFF840541A53D64000D22DE6 /* IOBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,11 +109,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF5EFE841A5E51E900ED4DFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EFE851A5E51E900ED4DFA /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF5EFE871A5E51E900ED4DFA /* TodayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EFE8E1A5E51E900ED4DFA /* TodayViewController.swift */,
+				DF5EFE901A5E51E900ED4DFA /* TodayViewController.xib */,
+				DF5EFE881A5E51E900ED4DFA /* Supporting Files */,
+			);
+			path = TodayWidget;
+			sourceTree = "<group>";
+		};
+		DF5EFE881A5E51E900ED4DFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EFE891A5E51E900ED4DFA /* Info.plist */,
+				DF5EFE8A1A5E51E900ED4DFA /* TodayWidget.entitlements */,
+				DF5EFE8B1A5E51E900ED4DFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		DF8155C21A528621003172F2 = {
 			isa = PBXGroup;
 			children = (
+				DFF840551A53D64600D22DE6 /* IOBluetoothUI.framework */,
+				DFF840531A53D64000D22DE6 /* IOBluetooth.framework */,
 				DF8155CD1A528621003172F2 /* Apple TV Remote */,
 				DF8155E01A528621003172F2 /* Apple TV RemoteTests */,
+				DF5EFE871A5E51E900ED4DFA /* TodayWidget */,
+				DF5EFE841A5E51E900ED4DFA /* Frameworks */,
 				DF8155CC1A528621003172F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +155,7 @@
 			children = (
 				DF8155CB1A528621003172F2 /* Apple TV Remote.app */,
 				DF8155DD1A528621003172F2 /* Apple TV RemoteTests.xctest */,
+				DF5EFE831A5E51E900ED4DFA /* TodayWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +167,10 @@
 				DF8155D21A528621003172F2 /* ViewController.swift */,
 				DF8155D41A528621003172F2 /* Images.xcassets */,
 				DF8155D61A528621003172F2 /* Main.storyboard */,
+				DF5EFE991A5E522000ED4DFA /* KeyboardDictionary.plist */,
+				DF5EFE9A1A5E522000ED4DFA /* KeyboardLayouts.plist */,
+				DF5EFE9B1A5E522000ED4DFA /* SpecialMenuItems.plist */,
+				DF5EFE9C1A5E522000ED4DFA /* UserDefaults.plist */,
 				DF8155CE1A528621003172F2 /* Supporting Files */,
 			);
 			path = "Apple TV Remote";
@@ -112,6 +204,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DF5EFE821A5E51E900ED4DFA /* TodayWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5EFE971A5E51E900ED4DFA /* Build configuration list for PBXNativeTarget "TodayWidget" */;
+			buildPhases = (
+				DF5EFE7F1A5E51E900ED4DFA /* Sources */,
+				DF5EFE801A5E51E900ED4DFA /* Frameworks */,
+				DF5EFE811A5E51E900ED4DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayWidget;
+			productName = TodayWidget;
+			productReference = DF5EFE831A5E51E900ED4DFA /* TodayWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		DF8155CA1A528621003172F2 /* Apple TV Remote */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF8155E71A528621003172F2 /* Build configuration list for PBXNativeTarget "Apple TV Remote" */;
@@ -119,10 +228,12 @@
 				DF8155C71A528621003172F2 /* Sources */,
 				DF8155C81A528621003172F2 /* Frameworks */,
 				DF8155C91A528621003172F2 /* Resources */,
+				DF5EFE981A5E51E900ED4DFA /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DF5EFE931A5E51E900ED4DFA /* PBXTargetDependency */,
 			);
 			name = "Apple TV Remote";
 			productName = "Apple TV Remote";
@@ -156,6 +267,9 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "applies, llc.";
 				TargetAttributes = {
+					DF5EFE821A5E51E900ED4DFA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 					DF8155CA1A528621003172F2 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -180,15 +294,29 @@
 			targets = (
 				DF8155CA1A528621003172F2 /* Apple TV Remote */,
 				DF8155DC1A528621003172F2 /* Apple TV RemoteTests */,
+				DF5EFE821A5E51E900ED4DFA /* TodayWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DF5EFE811A5E51E900ED4DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5EFE911A5E51E900ED4DFA /* TodayViewController.xib in Resources */,
+				DF5EFE8D1A5E51E900ED4DFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF8155C91A528621003172F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5EFE9D1A5E522000ED4DFA /* KeyboardDictionary.plist in Resources */,
+				DF5EFEA01A5E522000ED4DFA /* UserDefaults.plist in Resources */,
+				DF5EFE9F1A5E522000ED4DFA /* SpecialMenuItems.plist in Resources */,
+				DF5EFE9E1A5E522000ED4DFA /* KeyboardLayouts.plist in Resources */,
 				DF8155D51A528621003172F2 /* Images.xcassets in Resources */,
 				DF8155D81A528621003172F2 /* Main.storyboard in Resources */,
 			);
@@ -204,6 +332,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DF5EFE7F1A5E51E900ED4DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5EFE8F1A5E51E900ED4DFA /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF8155C71A528621003172F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,6 +360,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DF5EFE931A5E51E900ED4DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5EFE821A5E51E900ED4DFA /* TodayWidget */;
+			targetProxy = DF5EFE921A5E51E900ED4DFA /* PBXContainerItemProxy */;
+		};
 		DF8155DF1A528621003172F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DF8155CA1A528621003172F2 /* Apple TV Remote */;
@@ -232,6 +373,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DF5EFE8B1A5E51E900ED4DFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5EFE8C1A5E51E900ED4DFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		DF8155D61A528621003172F2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -243,6 +392,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DF5EFE951A5E51E900ED4DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayWidget/TodayWidget.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TodayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF5EFE961A5E51E900ED4DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayWidget/TodayWidget.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TodayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		DF8155E51A528621003172F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Apple TV Remote/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Apple TV Remote/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +562,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DF5EFE971A5E51E900ED4DFA /* Build configuration list for PBXNativeTarget "TodayWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5EFE951A5E51E900ED4DFA /* Debug */,
+				DF5EFE961A5E51E900ED4DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DF8155C61A528621003172F2 /* Build configuration list for PBXProject "Apple TV Remote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -397,6 +586,7 @@
 				DF8155E91A528621003172F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF8155EA1A528621003172F2 /* Build configuration list for PBXNativeTarget "Apple TV RemoteTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +595,7 @@
 				DF8155EC1A528621003172F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

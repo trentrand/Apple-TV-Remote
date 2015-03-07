@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF6A003C1A5B67CA006CCF66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6A003B1A5B67CA006CCF66 /* AppDelegate.m */; };
+		DF6A003E1A5B67CA006CCF66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6A003D1A5B67CA006CCF66 /* main.m */; };
+		DF6A00411A5B67CA006CCF66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6A00401A5B67CA006CCF66 /* ViewController.m */; };
+		DF6A00431A5B67CA006CCF66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6A00421A5B67CA006CCF66 /* Images.xcassets */; };
+		DF6A00461A5B67CB006CCF66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6A00441A5B67CB006CCF66 /* Main.storyboard */; };
+		DF6A00521A5B67CB006CCF66 /* Apple_TV_Remote_objcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6A00511A5B67CB006CCF66 /* Apple_TV_Remote_objcTests.m */; };
+		DF6A00611A5B6832006CCF66 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6A005F1A5B6832006CCF66 /* IOBluetooth.framework */; };
+		DF6A00621A5B6832006CCF66 /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6A00601A5B6832006CCF66 /* IOBluetoothUI.framework */; };
+		DFFFB2231A5C4951006724D6 /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2221A5C4951006724D6 /* UserDefaults.plist */; };
+		DFFFB2511A5C495F006724D6 /* KeyboardDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2241A5C495F006724D6 /* KeyboardDictionary.plist */; };
+		DFFFB2521A5C495F006724D6 /* ARABIC.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2261A5C495F006724D6 /* ARABIC.plist */; };
+		DFFFB2531A5C495F006724D6 /* AU.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2271A5C495F006724D6 /* AU.plist */; };
+		DFFFB2541A5C495F006724D6 /* BE.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2281A5C495F006724D6 /* BE.plist */; };
+		DFFFB2551A5C495F006724D6 /* BR.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2291A5C495F006724D6 /* BR.plist */; };
+		DFFFB2561A5C495F006724D6 /* CA.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB22A1A5C495F006724D6 /* CA.plist */; };
+		DFFFB2571A5C495F006724D6 /* CA_FR.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB22B1A5C495F006724D6 /* CA_FR.plist */; };
+		DFFFB2581A5C495F006724D6 /* CH_DE.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB22C1A5C495F006724D6 /* CH_DE.plist */; };
+		DFFFB2591A5C495F006724D6 /* CH_FR.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB22D1A5C495F006724D6 /* CH_FR.plist */; };
+		DFFFB25A1A5C495F006724D6 /* CZ.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB22E1A5C495F006724D6 /* CZ.plist */; };
+		DFFFB25B1A5C495F006724D6 /* CZQWERTY.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB22F1A5C495F006724D6 /* CZQWERTY.plist */; };
+		DFFFB25C1A5C495F006724D6 /* DA.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2301A5C495F006724D6 /* DA.plist */; };
+		DFFFB25D1A5C495F006724D6 /* DE.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2311A5C495F006724D6 /* DE.plist */; };
+		DFFFB25E1A5C495F006724D6 /* DVORAK.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2321A5C495F006724D6 /* DVORAK.plist */; };
+		DFFFB25F1A5C495F006724D6 /* ES.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2331A5C495F006724D6 /* ES.plist */; };
+		DFFFB2601A5C495F006724D6 /* FI.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2341A5C495F006724D6 /* FI.plist */; };
+		DFFFB2611A5C495F006724D6 /* FR.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2351A5C495F006724D6 /* FR.plist */; };
+		DFFFB2621A5C495F006724D6 /* GR.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2361A5C495F006724D6 /* GR.plist */; };
+		DFFFB2631A5C495F006724D6 /* HE.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2371A5C495F006724D6 /* HE.plist */; };
+		DFFFB2641A5C495F006724D6 /* HU.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2381A5C495F006724D6 /* HU.plist */; };
+		DFFFB2651A5C495F006724D6 /* IT.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2391A5C495F006724D6 /* IT.plist */; };
+		DFFFB2661A5C495F006724D6 /* JP.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB23A1A5C495F006724D6 /* JP.plist */; };
+		DFFFB2671A5C495F006724D6 /* JPQWERTY.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB23B1A5C495F006724D6 /* JPQWERTY.plist */; };
+		DFFFB2681A5C495F006724D6 /* KO.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB23C1A5C495F006724D6 /* KO.plist */; };
+		DFFFB2691A5C495F006724D6 /* NL.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB23D1A5C495F006724D6 /* NL.plist */; };
+		DFFFB26A1A5C495F006724D6 /* NO.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB23E1A5C495F006724D6 /* NO.plist */; };
+		DFFFB26B1A5C495F006724D6 /* PL.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB23F1A5C495F006724D6 /* PL.plist */; };
+		DFFFB26C1A5C495F006724D6 /* PLPRO.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2401A5C495F006724D6 /* PLPRO.plist */; };
+		DFFFB26D1A5C495F006724D6 /* PT.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2411A5C495F006724D6 /* PT.plist */; };
+		DFFFB26E1A5C495F006724D6 /* RSLATIN.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2421A5C495F006724D6 /* RSLATIN.plist */; };
+		DFFFB26F1A5C495F006724D6 /* RU.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2431A5C495F006724D6 /* RU.plist */; };
+		DFFFB2701A5C495F006724D6 /* SE.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2441A5C495F006724D6 /* SE.plist */; };
+		DFFFB2711A5C495F006724D6 /* SI.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2451A5C495F006724D6 /* SI.plist */; };
+		DFFFB2721A5C495F006724D6 /* SK.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2461A5C495F006724D6 /* SK.plist */; };
+		DFFFB2731A5C495F006724D6 /* SKQWERTY.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2471A5C495F006724D6 /* SKQWERTY.plist */; };
+		DFFFB2741A5C495F006724D6 /* SR.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2481A5C495F006724D6 /* SR.plist */; };
+		DFFFB2751A5C495F006724D6 /* TH.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2491A5C495F006724D6 /* TH.plist */; };
+		DFFFB2761A5C495F006724D6 /* TR.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB24A1A5C495F006724D6 /* TR.plist */; };
+		DFFFB2771A5C495F006724D6 /* TRQWERTY.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB24B1A5C495F006724D6 /* TRQWERTY.plist */; };
+		DFFFB2781A5C495F006724D6 /* TRQWERTYPC.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB24C1A5C495F006724D6 /* TRQWERTYPC.plist */; };
+		DFFFB2791A5C495F006724D6 /* UK.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB24D1A5C495F006724D6 /* UK.plist */; };
+		DFFFB27A1A5C495F006724D6 /* US.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB24E1A5C495F006724D6 /* US.plist */; };
+		DFFFB27B1A5C495F006724D6 /* KeyboardLayouts.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB24F1A5C495F006724D6 /* KeyboardLayouts.plist */; };
+		DFFFB27C1A5C495F006724D6 /* SpecialMenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFFFB2501A5C495F006724D6 /* SpecialMenuItems.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF6A004C1A5B67CB006CCF66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6A002D1A5B67CA006CCF66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6A00341A5B67CA006CCF66;
+			remoteInfo = "Apple TV Remote objc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF5EFE7E1A5C662D00ED4DFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF6A00351A5B67CA006CCF66 /* Apple TV Remote objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple TV Remote objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6A00391A5B67CA006CCF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6A003A1A5B67CA006CCF66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF6A003B1A5B67CA006CCF66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF6A003D1A5B67CA006CCF66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF6A00401A5B67CA006CCF66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF6A00421A5B67CA006CCF66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF6A00451A5B67CB006CCF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF6A004B1A5B67CB006CCF66 /* Apple TV Remote objcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple TV Remote objcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6A00501A5B67CB006CCF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6A00511A5B67CB006CCF66 /* Apple_TV_Remote_objcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Apple_TV_Remote_objcTests.m; sourceTree = "<group>"; };
+		DF6A005F1A5B6832006CCF66 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		DF6A00601A5B6832006CCF66 /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = SDKROOT; };
+		DFFFB2221A5C4951006724D6 /* UserDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserDefaults.plist; sourceTree = "<group>"; };
+		DFFFB2241A5C495F006724D6 /* KeyboardDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeyboardDictionary.plist; sourceTree = "<group>"; };
+		DFFFB2261A5C495F006724D6 /* ARABIC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ARABIC.plist; sourceTree = "<group>"; };
+		DFFFB2271A5C495F006724D6 /* AU.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AU.plist; sourceTree = "<group>"; };
+		DFFFB2281A5C495F006724D6 /* BE.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BE.plist; sourceTree = "<group>"; };
+		DFFFB2291A5C495F006724D6 /* BR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BR.plist; sourceTree = "<group>"; };
+		DFFFB22A1A5C495F006724D6 /* CA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CA.plist; sourceTree = "<group>"; };
+		DFFFB22B1A5C495F006724D6 /* CA_FR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CA_FR.plist; sourceTree = "<group>"; };
+		DFFFB22C1A5C495F006724D6 /* CH_DE.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CH_DE.plist; sourceTree = "<group>"; };
+		DFFFB22D1A5C495F006724D6 /* CH_FR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CH_FR.plist; sourceTree = "<group>"; };
+		DFFFB22E1A5C495F006724D6 /* CZ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CZ.plist; sourceTree = "<group>"; };
+		DFFFB22F1A5C495F006724D6 /* CZQWERTY.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CZQWERTY.plist; sourceTree = "<group>"; };
+		DFFFB2301A5C495F006724D6 /* DA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DA.plist; sourceTree = "<group>"; };
+		DFFFB2311A5C495F006724D6 /* DE.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DE.plist; sourceTree = "<group>"; };
+		DFFFB2321A5C495F006724D6 /* DVORAK.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DVORAK.plist; sourceTree = "<group>"; };
+		DFFFB2331A5C495F006724D6 /* ES.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ES.plist; sourceTree = "<group>"; };
+		DFFFB2341A5C495F006724D6 /* FI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FI.plist; sourceTree = "<group>"; };
+		DFFFB2351A5C495F006724D6 /* FR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FR.plist; sourceTree = "<group>"; };
+		DFFFB2361A5C495F006724D6 /* GR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GR.plist; sourceTree = "<group>"; };
+		DFFFB2371A5C495F006724D6 /* HE.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HE.plist; sourceTree = "<group>"; };
+		DFFFB2381A5C495F006724D6 /* HU.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HU.plist; sourceTree = "<group>"; };
+		DFFFB2391A5C495F006724D6 /* IT.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IT.plist; sourceTree = "<group>"; };
+		DFFFB23A1A5C495F006724D6 /* JP.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JP.plist; sourceTree = "<group>"; };
+		DFFFB23B1A5C495F006724D6 /* JPQWERTY.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JPQWERTY.plist; sourceTree = "<group>"; };
+		DFFFB23C1A5C495F006724D6 /* KO.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KO.plist; sourceTree = "<group>"; };
+		DFFFB23D1A5C495F006724D6 /* NL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NL.plist; sourceTree = "<group>"; };
+		DFFFB23E1A5C495F006724D6 /* NO.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NO.plist; sourceTree = "<group>"; };
+		DFFFB23F1A5C495F006724D6 /* PL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PL.plist; sourceTree = "<group>"; };
+		DFFFB2401A5C495F006724D6 /* PLPRO.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PLPRO.plist; sourceTree = "<group>"; };
+		DFFFB2411A5C495F006724D6 /* PT.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PT.plist; sourceTree = "<group>"; };
+		DFFFB2421A5C495F006724D6 /* RSLATIN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RSLATIN.plist; sourceTree = "<group>"; };
+		DFFFB2431A5C495F006724D6 /* RU.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RU.plist; sourceTree = "<group>"; };
+		DFFFB2441A5C495F006724D6 /* SE.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SE.plist; sourceTree = "<group>"; };
+		DFFFB2451A5C495F006724D6 /* SI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SI.plist; sourceTree = "<group>"; };
+		DFFFB2461A5C495F006724D6 /* SK.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SK.plist; sourceTree = "<group>"; };
+		DFFFB2471A5C495F006724D6 /* SKQWERTY.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SKQWERTY.plist; sourceTree = "<group>"; };
+		DFFFB2481A5C495F006724D6 /* SR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SR.plist; sourceTree = "<group>"; };
+		DFFFB2491A5C495F006724D6 /* TH.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TH.plist; sourceTree = "<group>"; };
+		DFFFB24A1A5C495F006724D6 /* TR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TR.plist; sourceTree = "<group>"; };
+		DFFFB24B1A5C495F006724D6 /* TRQWERTY.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TRQWERTY.plist; sourceTree = "<group>"; };
+		DFFFB24C1A5C495F006724D6 /* TRQWERTYPC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TRQWERTYPC.plist; sourceTree = "<group>"; };
+		DFFFB24D1A5C495F006724D6 /* UK.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UK.plist; sourceTree = "<group>"; };
+		DFFFB24E1A5C495F006724D6 /* US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = US.plist; sourceTree = "<group>"; };
+		DFFFB24F1A5C495F006724D6 /* KeyboardLayouts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeyboardLayouts.plist; sourceTree = "<group>"; };
+		DFFFB2501A5C495F006724D6 /* SpecialMenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SpecialMenuItems.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF6A00321A5B67CA006CCF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6A00611A5B6832006CCF66 /* IOBluetooth.framework in Frameworks */,
+				DF6A00621A5B6832006CCF66 /* IOBluetoothUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6A00481A5B67CB006CCF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF6A002C1A5B67CA006CCF66 = {
+			isa = PBXGroup;
+			children = (
+				DF6A005F1A5B6832006CCF66 /* IOBluetooth.framework */,
+				DF6A00601A5B6832006CCF66 /* IOBluetoothUI.framework */,
+				DF6A00371A5B67CA006CCF66 /* Apple TV Remote objc */,
+				DF6A004E1A5B67CB006CCF66 /* Apple TV Remote objcTests */,
+				DF6A00361A5B67CA006CCF66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF6A00361A5B67CA006CCF66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF6A00351A5B67CA006CCF66 /* Apple TV Remote objc.app */,
+				DF6A004B1A5B67CB006CCF66 /* Apple TV Remote objcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF6A00371A5B67CA006CCF66 /* Apple TV Remote objc */ = {
+			isa = PBXGroup;
+			children = (
+				DFFFB2251A5C495F006724D6 /* KeyboardLayouts */,
+				DF6A003A1A5B67CA006CCF66 /* AppDelegate.h */,
+				DF6A003B1A5B67CA006CCF66 /* AppDelegate.m */,
+				DF5EFE7E1A5C662D00ED4DFA /* ViewController.h */,
+				DF6A00401A5B67CA006CCF66 /* ViewController.m */,
+				DF6A00421A5B67CA006CCF66 /* Images.xcassets */,
+				DF6A00441A5B67CB006CCF66 /* Main.storyboard */,
+				DFFFB2241A5C495F006724D6 /* KeyboardDictionary.plist */,
+				DFFFB24F1A5C495F006724D6 /* KeyboardLayouts.plist */,
+				DFFFB2501A5C495F006724D6 /* SpecialMenuItems.plist */,
+				DFFFB2221A5C4951006724D6 /* UserDefaults.plist */,
+				DF6A00381A5B67CA006CCF66 /* Supporting Files */,
+			);
+			path = "Apple TV Remote objc";
+			sourceTree = "<group>";
+		};
+		DF6A00381A5B67CA006CCF66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF6A00391A5B67CA006CCF66 /* Info.plist */,
+				DF6A003D1A5B67CA006CCF66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF6A004E1A5B67CB006CCF66 /* Apple TV Remote objcTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF6A00511A5B67CB006CCF66 /* Apple_TV_Remote_objcTests.m */,
+				DF6A004F1A5B67CB006CCF66 /* Supporting Files */,
+			);
+			path = "Apple TV Remote objcTests";
+			sourceTree = "<group>";
+		};
+		DF6A004F1A5B67CB006CCF66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF6A00501A5B67CB006CCF66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFFFB2251A5C495F006724D6 /* KeyboardLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				DFFFB2261A5C495F006724D6 /* ARABIC.plist */,
+				DFFFB2271A5C495F006724D6 /* AU.plist */,
+				DFFFB2281A5C495F006724D6 /* BE.plist */,
+				DFFFB2291A5C495F006724D6 /* BR.plist */,
+				DFFFB22A1A5C495F006724D6 /* CA.plist */,
+				DFFFB22B1A5C495F006724D6 /* CA_FR.plist */,
+				DFFFB22C1A5C495F006724D6 /* CH_DE.plist */,
+				DFFFB22D1A5C495F006724D6 /* CH_FR.plist */,
+				DFFFB22E1A5C495F006724D6 /* CZ.plist */,
+				DFFFB22F1A5C495F006724D6 /* CZQWERTY.plist */,
+				DFFFB2301A5C495F006724D6 /* DA.plist */,
+				DFFFB2311A5C495F006724D6 /* DE.plist */,
+				DFFFB2321A5C495F006724D6 /* DVORAK.plist */,
+				DFFFB2331A5C495F006724D6 /* ES.plist */,
+				DFFFB2341A5C495F006724D6 /* FI.plist */,
+				DFFFB2351A5C495F006724D6 /* FR.plist */,
+				DFFFB2361A5C495F006724D6 /* GR.plist */,
+				DFFFB2371A5C495F006724D6 /* HE.plist */,
+				DFFFB2381A5C495F006724D6 /* HU.plist */,
+				DFFFB2391A5C495F006724D6 /* IT.plist */,
+				DFFFB23A1A5C495F006724D6 /* JP.plist */,
+				DFFFB23B1A5C495F006724D6 /* JPQWERTY.plist */,
+				DFFFB23C1A5C495F006724D6 /* KO.plist */,
+				DFFFB23D1A5C495F006724D6 /* NL.plist */,
+				DFFFB23E1A5C495F006724D6 /* NO.plist */,
+				DFFFB23F1A5C495F006724D6 /* PL.plist */,
+				DFFFB2401A5C495F006724D6 /* PLPRO.plist */,
+				DFFFB2411A5C495F006724D6 /* PT.plist */,
+				DFFFB2421A5C495F006724D6 /* RSLATIN.plist */,
+				DFFFB2431A5C495F006724D6 /* RU.plist */,
+				DFFFB2441A5C495F006724D6 /* SE.plist */,
+				DFFFB2451A5C495F006724D6 /* SI.plist */,
+				DFFFB2461A5C495F006724D6 /* SK.plist */,
+				DFFFB2471A5C495F006724D6 /* SKQWERTY.plist */,
+				DFFFB2481A5C495F006724D6 /* SR.plist */,
+				DFFFB2491A5C495F006724D6 /* TH.plist */,
+				DFFFB24A1A5C495F006724D6 /* TR.plist */,
+				DFFFB24B1A5C495F006724D6 /* TRQWERTY.plist */,
+				DFFFB24C1A5C495F006724D6 /* TRQWERTYPC.plist */,
+				DFFFB24D1A5C495F006724D6 /* UK.plist */,
+				DFFFB24E1A5C495F006724D6 /* US.plist */,
+			);
+			path = KeyboardLayouts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF6A00341A5B67CA006CCF66 /* Apple TV Remote objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6A00551A5B67CB006CCF66 /* Build configuration list for PBXNativeTarget "Apple TV Remote objc" */;
+			buildPhases = (
+				DF6A00311A5B67CA006CCF66 /* Sources */,
+				DF6A00321A5B67CA006CCF66 /* Frameworks */,
+				DF6A00331A5B67CA006CCF66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apple TV Remote objc";
+			productName = "Apple TV Remote objc";
+			productReference = DF6A00351A5B67CA006CCF66 /* Apple TV Remote objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF6A004A1A5B67CB006CCF66 /* Apple TV Remote objcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6A00581A5B67CB006CCF66 /* Build configuration list for PBXNativeTarget "Apple TV Remote objcTests" */;
+			buildPhases = (
+				DF6A00471A5B67CB006CCF66 /* Sources */,
+				DF6A00481A5B67CB006CCF66 /* Frameworks */,
+				DF6A00491A5B67CB006CCF66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6A004D1A5B67CB006CCF66 /* PBXTargetDependency */,
+			);
+			name = "Apple TV Remote objcTests";
+			productName = "Apple TV Remote objcTests";
+			productReference = DF6A004B1A5B67CB006CCF66 /* Apple TV Remote objcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF6A002D1A5B67CA006CCF66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "applies, llc.";
+				TargetAttributes = {
+					DF6A00341A5B67CA006CCF66 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DF6A004A1A5B67CB006CCF66 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DF6A00341A5B67CA006CCF66;
+					};
+				};
+			};
+			buildConfigurationList = DF6A00301A5B67CA006CCF66 /* Build configuration list for PBXProject "Apple TV Remote objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF6A002C1A5B67CA006CCF66;
+			productRefGroup = DF6A00361A5B67CA006CCF66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF6A00341A5B67CA006CCF66 /* Apple TV Remote objc */,
+				DF6A004A1A5B67CB006CCF66 /* Apple TV Remote objcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF6A00331A5B67CA006CCF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6A00431A5B67CA006CCF66 /* Images.xcassets in Resources */,
+				DFFFB2511A5C495F006724D6 /* KeyboardDictionary.plist in Resources */,
+				DFFFB26E1A5C495F006724D6 /* RSLATIN.plist in Resources */,
+				DFFFB2581A5C495F006724D6 /* CH_DE.plist in Resources */,
+				DFFFB27A1A5C495F006724D6 /* US.plist in Resources */,
+				DFFFB2231A5C4951006724D6 /* UserDefaults.plist in Resources */,
+				DFFFB26B1A5C495F006724D6 /* PL.plist in Resources */,
+				DFFFB2721A5C495F006724D6 /* SK.plist in Resources */,
+				DFFFB2691A5C495F006724D6 /* NL.plist in Resources */,
+				DFFFB26D1A5C495F006724D6 /* PT.plist in Resources */,
+				DFFFB2681A5C495F006724D6 /* KO.plist in Resources */,
+				DFFFB25F1A5C495F006724D6 /* ES.plist in Resources */,
+				DFFFB25C1A5C495F006724D6 /* DA.plist in Resources */,
+				DFFFB2541A5C495F006724D6 /* BE.plist in Resources */,
+				DFFFB2651A5C495F006724D6 /* IT.plist in Resources */,
+				DFFFB2751A5C495F006724D6 /* TH.plist in Resources */,
+				DFFFB2781A5C495F006724D6 /* TRQWERTYPC.plist in Resources */,
+				DFFFB2571A5C495F006724D6 /* CA_FR.plist in Resources */,
+				DFFFB2641A5C495F006724D6 /* HU.plist in Resources */,
+				DFFFB25E1A5C495F006724D6 /* DVORAK.plist in Resources */,
+				DFFFB26C1A5C495F006724D6 /* PLPRO.plist in Resources */,
+				DFFFB2561A5C495F006724D6 /* CA.plist in Resources */,
+				DFFFB25B1A5C495F006724D6 /* CZQWERTY.plist in Resources */,
+				DFFFB2701A5C495F006724D6 /* SE.plist in Resources */,
+				DFFFB26F1A5C495F006724D6 /* RU.plist in Resources */,
+				DFFFB2591A5C495F006724D6 /* CH_FR.plist in Resources */,
+				DFFFB2711A5C495F006724D6 /* SI.plist in Resources */,
+				DFFFB2661A5C495F006724D6 /* JP.plist in Resources */,
+				DFFFB2741A5C495F006724D6 /* SR.plist in Resources */,
+				DF6A00461A5B67CB006CCF66 /* Main.storyboard in Resources */,
+				DFFFB2761A5C495F006724D6 /* TR.plist in Resources */,
+				DFFFB2671A5C495F006724D6 /* JPQWERTY.plist in Resources */,
+				DFFFB25D1A5C495F006724D6 /* DE.plist in Resources */,
+				DFFFB2611A5C495F006724D6 /* FR.plist in Resources */,
+				DFFFB2531A5C495F006724D6 /* AU.plist in Resources */,
+				DFFFB2791A5C495F006724D6 /* UK.plist in Resources */,
+				DFFFB27C1A5C495F006724D6 /* SpecialMenuItems.plist in Resources */,
+				DFFFB26A1A5C495F006724D6 /* NO.plist in Resources */,
+				DFFFB2621A5C495F006724D6 /* GR.plist in Resources */,
+				DFFFB2631A5C495F006724D6 /* HE.plist in Resources */,
+				DFFFB2771A5C495F006724D6 /* TRQWERTY.plist in Resources */,
+				DFFFB25A1A5C495F006724D6 /* CZ.plist in Resources */,
+				DFFFB27B1A5C495F006724D6 /* KeyboardLayouts.plist in Resources */,
+				DFFFB2601A5C495F006724D6 /* FI.plist in Resources */,
+				DFFFB2551A5C495F006724D6 /* BR.plist in Resources */,
+				DFFFB2731A5C495F006724D6 /* SKQWERTY.plist in Resources */,
+				DFFFB2521A5C495F006724D6 /* ARABIC.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6A00491A5B67CB006CCF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF6A00311A5B67CA006CCF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6A00411A5B67CA006CCF66 /* ViewController.m in Sources */,
+				DF6A003E1A5B67CA006CCF66 /* main.m in Sources */,
+				DF6A003C1A5B67CA006CCF66 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6A00471A5B67CB006CCF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6A00521A5B67CB006CCF66 /* Apple_TV_Remote_objcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF6A004D1A5B67CB006CCF66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6A00341A5B67CA006CCF66 /* Apple TV Remote objc */;
+			targetProxy = DF6A004C1A5B67CB006CCF66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF6A00441A5B67CB006CCF66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6A00451A5B67CB006CCF66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF6A00531A5B67CB006CCF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DF6A00541A5B67CB006CCF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF6A00561A5B67CB006CCF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Apple TV Remote objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF6A00571A5B67CB006CCF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Apple TV Remote objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF6A00591A5B67CB006CCF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Apple TV Remote objcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple TV Remote objc.app/Contents/MacOS/Apple TV Remote objc";
+			};
+			name = Debug;
+		};
+		DF6A005A1A5B67CB006CCF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Apple TV Remote objcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple TV Remote objc.app/Contents/MacOS/Apple TV Remote objc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF6A00301A5B67CA006CCF66 /* Build configuration list for PBXProject "Apple TV Remote objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6A00531A5B67CB006CCF66 /* Debug */,
+				DF6A00541A5B67CB006CCF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6A00551A5B67CB006CCF66 /* Build configuration list for PBXNativeTarget "Apple TV Remote objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6A00561A5B67CB006CCF66 /* Debug */,
+				DF6A00571A5B67CB006CCF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6A00581A5B67CB006CCF66 /* Build configuration list for PBXNativeTarget "Apple TV Remote objcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6A00591A5B67CB006CCF66 /* Debug */,
+				DF6A005A1A5B67CB006CCF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF6A002D1A5B67CA006CCF66 /* Project object */;
+}

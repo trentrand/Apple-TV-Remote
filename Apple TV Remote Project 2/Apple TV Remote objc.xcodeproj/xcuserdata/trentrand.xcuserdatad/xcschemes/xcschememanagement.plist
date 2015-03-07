@@ -4,30 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Apple TV Remote.xcscheme</key>
+		<key>Apple TV Remote objc.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>TodayWidget.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DF5EFE821A5E51E900ED4DFA</key>
+		<key>DF6A00341A5B67CA006CCF66</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DF8155CA1A528621003172F2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DF8155DC1A528621003172F2</key>
+		<key>DF6A004A1A5B67CB006CCF66</key>
 		<dict>
 			<key>primary</key>
 			<true/>

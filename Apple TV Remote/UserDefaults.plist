@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
+	<key>NSDisabledCharacterPaletteMenuItem</key>
+	<true/>
+	<key>autoReconnect</key>
+	<true/>
+	<key>autoReconnectOnInput</key>
+	<true/>
+	<key>autoReconnectOnWake</key>
+	<true/>
+	<key>autoReconnectOnForeground</key>
+	<false/>
+	<key>collapsedMode</key>
+	<false/>
+	<key>disconnectOnBackground</key>
+	<true/>
+	<key>hideOnBackground</key>
+	<false/>
+	<key>disconnectOnIdle</key>
+	<true/>
+	<key>flyOutAnimation</key>
+	<false/>
+	<key>mailingListShouldSolicit</key>
+	<true/>
+	<key>perDeviceKeyboardLayouts</key>
+	<true/>
+	<key>showText</key>
+	<true/>
+	<key>stealthMode</key>
+	<false/>
+	<key>threadedSendKeyCodes</key>
+	<false/>
+	<key>throttleSendKeyCodes</key>
+	<true/>
+	<key>interCharacterDelay</key>
+	<real>0.03</real>
+	<key>waitAfterConnectionEstablished</key>
+	<true/>
+	<key>connectionEstablishedDelay</key>
+	<real>3.5</real>
+</dict>
+</plist>
