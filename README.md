@@ -35,7 +35,7 @@ Please read through my [contributing guidelines]. Included are directions for op
  
 ### Author
 
-Apple TV Remote is developed by Trent Rand ([@trentrand]) ([trentrand.com])
+Apple TV Remote is developed by Trent Rand ([@trent_rand]) ([trentrand.com])
 
 If you have any questions, feel free to message contact@trentrand.com
 
@@ -49,6 +49,6 @@ Released under the [MIT license].
 
 
 [trentrand.com]:http://www.trentrand.com
-[@trentrand]:http://twitter.com/trentrand
-[contributing guidelines]:CONTRIBUTING
-[MIT license]:LICENSE
+[@trentrand]:http://twitter.com/trent_rand
+[contributing guidelines]:CONTRIBUTING.md
+[MIT license]:LICENSE.md
