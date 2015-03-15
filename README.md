@@ -31,11 +31,11 @@ Apple TV Remote documentation is hosted in the wiki. If there is an inaccuracy i
  
 ### Contributing
 
-Please read through my [contributing guidelines](CONTRIBUTING). Included are directions for opening issues, coding standards, and notes on development.
+Please read through my [contributing guidelines]. Included are directions for opening issues, coding standards, and notes on development.
  
 ### Author
 
-Apple TV Remote is developed by Trent Rand ([@trentrand](twitter.com/trentrand)) ([trentrand.com](trentrand.com))
+Apple TV Remote is developed by Trent Rand ([@trentrand]) ([trentrand.com])
 
 If you have any questions, feel free to message contact@trentrand.com
 
@@ -45,19 +45,10 @@ If you find anything weird with Apple TV Remote, please let me know using the Gi
 
 ### License
 
-Released under the [MIT license](LICENSE).
+Released under the [MIT license].
 
 
-[john gruber]:http://daringfireball.net/
-[@thomasfuchs]:http://twitter.com/thomasfuchs
-[1]:http://daringfireball.net/projects/markdown/
-[marked]:https://github.com/chjj/marked
-[Ace Editor]:http://ace.ajax.org
-[node.js]:http://nodejs.org
-[Twitter Bootstrap]:http://twitter.github.com/bootstrap/
-[keymaster.js]:https://github.com/madrobby/keymaster
-[jQuery]:http://jquery.com
-[@tjholowaychuk]:http://twitter.com/tjholowaychuk
-[express]:http://expressjs.com
-[AngularJS]:http://angularjs.org
-[Gulp]:http://gulpjs.com
+[trentrand.com]:http://www.trentrand.com
+[@trentrand]:http://twitter.com/trentrand
+[contributing guidelines]:CONTRIBUTING
+[MIT license]:LICENSE
