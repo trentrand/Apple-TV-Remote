@@ -49,6 +49,6 @@ Released under the [MIT license].
 
 
 [trentrand.com]:http://www.trentrand.com
-[@trentrand]:http://twitter.com/trent_rand
+[@trent_rand]:http://twitter.com/trent_rand
 [contributing guidelines]:CONTRIBUTING.md
 [MIT license]:LICENSE.md
