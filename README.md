@@ -45,10 +45,12 @@ If you find anything weird with Apple TV Remote, please let me know using the Gi
 
 ### License
 
-Released under the [MIT license].
+Released under the [GPL license].
 
 
 [trentrand.com]:http://www.trentrand.com
 [@trent_rand]:http://twitter.com/trent_rand
 [contributing guidelines]:CONTRIBUTING.md
 [MIT license]:LICENSE.md
+[Apache license]:LICENSE.md
+[GPL license]:LICENSE.md
